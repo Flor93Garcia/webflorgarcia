@@ -1,0 +1,242 @@
+#TITULO {
+  margin-left: 500px;
+  opacity: 0.5;
+  transition: all 2s; 
+}
+#TITULO:hover {
+  opacity: 1.0;
+  width: 400px;
+  height: 500px;
+}
+#bajo {
+  color: magenta;
+  font-style: italic;
+  font-size: 30px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  text-align: center;
+  letter-spacing: 3px; }
+
+p {
+  color: grey;
+  color: black;
+  font-weight: bold;
+  font-family: karma, New Century Schoolbook, TeX Gyre Schola, serif;
+  text-align:justify; }
+body {
+  background-image:url(home.jpg);
+  background-size: cover;
+  background-repeat: round;
+  background-attachment: fixed;
+
+   }
+
+table {
+  margin-left: 200px;
+  text-align: center;
+  text-align-last: center;
+  table-layout: initial;
+  width: 900px;
+  border-style: inset;
+  border-color: crimson;
+  border-width: 3px;
+  padding-top: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  background: linear-gradient(90deg, #f4ecef 0%, #0e0e0e 100%); }
+
+.interno {
+  margin-left: 200px;
+  text-align: center;
+  text-align-last: center;
+  table-layout: initial;
+  width: 900px;
+  border-style: inset;
+  border-color: crimson;
+  border-width: 2px;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  background: linear-gradient(to bottom, #ffffff 0%, #999966 100%); }
+
+
+#hola {
+  color: black;
+  text-align: center;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  text-decoration-line: underline;
+  font-style: italic; }
+
+footer {
+  color: black;
+  font-style: italic;
+  font-stretch: ultra-condensed;
+  font-weight: 1px; }
+
+#pie {
+  font-style: italic;
+  font-stretch: ultra-condensed;
+  color: black;
+  text-align: justify;
+   }
+#detalle {
+  display: inline-block;
+  width: 25%;
+  position: relative;
+  font-size: 14px;
+  color: black;
+  margin-left: 100px;
+  opacity: 1.0;
+  font-family:karma, New Century Schoolbook, TeX Gyre Schola, serif;
+   }
+
+ul ul {
+  position: absolute;
+  display: none;
+  color: black;
+  margin-left: 50px; }
+  ul ul li {
+    display: block;
+ }
+
+ul li:hover ul {
+  display: block; }
+
+li:hover {
+  opacity: 0.5; }
+
+a {
+  text-shadow: 50;
+  color: blue;
+  font-family: karma, New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+label {
+  color: black;
+  margin-left: 4px;
+  font-family: karma, New Century Schoolbook, TeX Gyre Schola, serif;
+ }
+
+select {
+  margin-left: 150px;
+  text-align-last: justify;
+  font-family: karma, New Century Schoolbook, TeX Gyre Schola, serif;
+  margin-left: 4px; }
+
+div {
+  color: black;
+  margin-left: 4px;
+  font-family: karma, New Century Schoolbook, TeX Gyre Schola, serif;
+ }
+
+legend {
+  color: black;
+  font-family:  karma, New Century Schoolbook, TeX Gyre Schola, serif;
+  margin-left: 4px; }
+
+option {
+  color: black;
+  margin-left: 4px;
+  font-family: karma, New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+textarea {
+  color: black;
+  margin-left: 4px;
+  font-family:karma, New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+form {
+  margin-left: 250px;
+  border-radius: 5px;
+  border-color: grey;
+  border-style: groove;
+  margin-right: 450px;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+
+input {
+  margin-left: 2px; }
+
+
+#formulario {
+  display: grid;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+   }
+#multimedia{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+ .video{
+  padding-left: 100px;
+  width: 420px;
+  height:340px;
+  }
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: karma, New Century Schoolbook, TeX Gyre Schola, serif;
+}
+.main {
+  max-width: 1000px;
+  margin-left: 500px;
+}
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+.row {
+  margin: 30px - 60px;
+}
+.row,
+.row > .column {
+  padding: 8px;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.content {
+  background-color: white;
+  padding:10px;
+  text-align: justify;
+  margin-left: 100px;
+  font-family: karma, New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.bajoim{
+  text-align: justify;
+  font-family: karma, New Century Schoolbook, TeX Gyre Schola, serif;
+}
+#Navidad{
+  margin-left: 500px;
+  width: 420px;
+  height:340px;
+  }
